@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="hours.html">
+        <link rel="stylesheet" href="home.html">
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="#about lts">About LTS</a>
+            </li>
+            <li>
+                <a href="#our menu">Our Menu</a>
+            </li>
+            <li>
+                <a href="hours.html">Store Hours</a>
+            </li>
+        </ul>
+        <figure>
+            <img src="tacos_close_up_400x260.png" alt="tacos plate" width="250" >
+            <figcaption>Little Taco shop Tacos</figcaption>
+        </figure>
+        <article id="contact us">
+             <h2>Our Contact Form</h2>
+             <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+                    <p>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="your name" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="your email" required autocorrect="on">
+                    </p>
+                    <p>
+                        <legend>Your Message:</legend>
+                        <label for="note"></label>
+                        <textarea name="note" id="note" cols="30" rows="9" placeholder="type your messgae here" required></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Sumbit</button>
+                <button type="reset">Reset</button>
+             </form>
+             <hr>
+             <h2>Our Location</h2>
+             <address>
+                555 Taco Temptation Lane,Suite T <br>
+                Knasas City, MO 55555-5555
+             </address>
+             <p>Phone: <a href="phone no.">555-555-5555</a></p>
+             <p><a href="#">Back to Top</a></p>
+             <hr>
+             <p>Copyright &copy; The Little Taco Shop</p>
+        </article>
